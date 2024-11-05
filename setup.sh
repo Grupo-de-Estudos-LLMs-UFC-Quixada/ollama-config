@@ -3,8 +3,8 @@
 # Instalar o Docker
 apt-get update
 apt-get -y install git vim
-git clone https://github.com/joaomarceloalencar/devops
-cd devops/Laboratorios/02_Docker/
+git clone https://github.com/joaomarceloalencar/llms
+cd llms
 sed -i 's/\$SUDO_USER/ubuntu/g' install_docker.sh
 ./install_docker.sh
 

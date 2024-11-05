@@ -13,7 +13,7 @@ apt-get update
 apt-get -y dist-upgrade
 mkdir /ollama
 mkdir /openwebui
-cat <<EOF > /docker-composer.yml
+cat <<EOF > /docker-compose.yml
 services:
   ollama:
     volumes:
@@ -54,4 +54,9 @@ volumes:
       device: /openwebui
       o: bind
 EOF
+
+echo "Subindo os contêineres."
 docker compose up -d
+sleep 30
+echo "Baixando o modelo llama3.2"
+docker compose exec ollama ollama pull llama3.2:latest

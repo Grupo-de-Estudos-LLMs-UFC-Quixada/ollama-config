@@ -3,7 +3,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
-#Descomente uma das opções abaixo para inicializar a variável
+# Descomente uma das opções abaixo para inicializar a variável llm.
 
 # Use esta opção se o Ollama estiver executando localmente.
 #llm = ChatOllama(

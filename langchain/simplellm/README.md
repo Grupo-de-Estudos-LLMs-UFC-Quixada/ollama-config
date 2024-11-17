@@ -1,5 +1,5 @@
 # Configuração
-
+## Fonte: [Build a Simple LLM Application](https://python.langchain.com/docs/tutorials/llm_chain/)
 Para executar este exemplo, você precisa criar um ambiente virtual Python e instalar as dependências.
 
 ```

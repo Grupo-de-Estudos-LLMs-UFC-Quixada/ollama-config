@@ -1,3 +1,4 @@
 ollama
 streamlit
 watchdog
+opencv-python

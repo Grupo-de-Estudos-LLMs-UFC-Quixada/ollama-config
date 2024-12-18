@@ -3,3 +3,7 @@ streamlit
 watchdog
 opencv-python
 PyMuPDF
+whisper
+numpy
+pydub
+openai-whisper

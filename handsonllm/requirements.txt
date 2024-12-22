@@ -1,5 +1,7 @@
+wheel
 transformers
 torch 
 torchvision 
 torchaudio
-flash-attention
+flash-attn
+accelerate

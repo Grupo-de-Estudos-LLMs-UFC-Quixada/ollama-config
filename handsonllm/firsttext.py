@@ -3,7 +3,7 @@ from transformers import pipeline
 
 # load model and tokenizer
 model = AutoModelForCausalLM.from_pretrained("microsoft/Phi-3-mini-4k-instruct",
-                                             device_map="cpu",
+                                             device_map="cuda:0",
                                              torch_dtype="auto", 
                                              trust_remote_code=True)
 

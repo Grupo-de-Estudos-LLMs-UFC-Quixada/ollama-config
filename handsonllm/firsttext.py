@@ -5,7 +5,9 @@ from transformers import pipeline
 model = AutoModelForCausalLM.from_pretrained("microsoft/Phi-3-mini-4k-instruct",
                                              device_map="cuda:0",
                                              torch_dtype="auto", 
-                                             trust_remote_code=True)
+                                             trust_remote_code=True,
+                                             attn_implementation="flash_attention_2")
+
 
 tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-4k-instruct")
 

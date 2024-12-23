@@ -5,3 +5,6 @@ torchvision
 torchaudio
 flash-attn
 accelerate
+sentence_transformers
+gensim
+pandas

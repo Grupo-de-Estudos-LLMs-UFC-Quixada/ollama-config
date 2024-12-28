@@ -8,3 +8,7 @@ accelerate
 sentence_transformers
 gensim
 pandas
+datasets
+scikit-learn
+openai
+ollama

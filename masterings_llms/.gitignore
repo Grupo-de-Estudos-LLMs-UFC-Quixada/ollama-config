@@ -4,3 +4,4 @@ venv*
 *.png
 .DS_Store
 note.txt
+diary.json

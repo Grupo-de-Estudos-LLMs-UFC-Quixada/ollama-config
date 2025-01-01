@@ -7,3 +7,7 @@ whisper
 numpy
 pydub
 openai-whisper
+langchain
+langchain-community
+langchain-ollama
+spacy

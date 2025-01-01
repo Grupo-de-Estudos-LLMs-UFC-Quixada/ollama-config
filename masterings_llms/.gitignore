@@ -3,3 +3,4 @@ venv*
 *.jpeg
 *.png
 .DS_Store
+note.txt

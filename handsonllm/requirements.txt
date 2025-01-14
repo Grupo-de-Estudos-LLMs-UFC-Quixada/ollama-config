@@ -12,3 +12,11 @@ datasets
 scikit-learn
 openai
 ollama
+datasets
+umap-learn
+hdbscan
+pandas
+matplotlib
+bertopic
+huggingface_hub
+datamapplot
